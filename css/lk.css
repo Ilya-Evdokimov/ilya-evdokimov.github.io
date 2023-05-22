@@ -1,0 +1,85 @@
+header{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-left: 120px;   
+    margin-top: 20px;
+    margin-right: 120px;
+}
+
+li{
+    display: inline;
+    margin: 0px 15px;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(2, 2, 2);
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+#boxing{
+    width: 120px;
+    height: 45px;
+    background: rgba(155, 213, 33, 0.87);
+    box-shadow: 5px 5px 9px rgba(159, 219, 33, 0.87);
+    border-radius: 10px;
+    text-align: center;
+    color: aliceblue;
+    font-size: 20px;
+}
+
+a:hover{
+    text-shadow: 5px 5px 9px rgba(0, 0, 0, 0.87);
+}
+
+.Tabletka{
+    margin-top: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+th{
+    width: 200px;
+    height: 30px;
+    color: rgb(0, 0, 0);
+    font-family: 'Open Sans';
+    font-style: Bold;
+    font-weight: 600;
+    font-size: 20px;
+}
+.Header__List{
+    white-space: nowrap;
+    margin-left: 250px;
+}
+.Header__List2{
+    white-space: nowrap;
+    margin-left: 250px;
+}
+
+.Borders{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+
+.Box__News{
+    display: flex;
+    width: 800px;
+    height: 300px;
+    background: cornflowerblue;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.Text__News{
+    font-size: 30px;
+    color: aliceblue;
+    margin-left: 5%;
+}
